@@ -20,8 +20,7 @@ h1,h2,h3,h4,h5,p{
 }
 .navbar{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;   
 }
 .menu{
     display: flex;
@@ -36,6 +35,7 @@ h1,h2,h3,h4,h5,p{
     color:  #101010;
 }
 .coll-center-style{
+    
     padding: 10px;
     background-color: #101010;
     color: #fff;
@@ -51,6 +51,17 @@ h1,h2,h3,h4,h5,p{
 .iframe{
     border-radius: 6px;
 }
+.section-hero{
+    background: #F2F4F6;
+}
+.title-hero{
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 140%;
+text-align: center;
+color: #101010;
+}
 .main-heading{
     margin-bottom: 20px;
     font-size: 56px;
@@ -63,12 +74,6 @@ h1,h2,h3,h4,h5,p{
     border-radius: 6px;
     border: none;
     cursor: pointer;
-}
-h3{
-    margin: 206px 0px 30px 0px;
-    text-align: center;
-    font-size: 36px;
-
 }
 .box{
     display: flex;
@@ -98,49 +103,68 @@ h3{
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.card:first-child:hover{
+.card:hover{
     background-color: #1AAB7B;
     color: #fff;
 }
-p{
-font-style: 18px;
-}
+
 .mini-title{
     margin-top: 50px;
     width: 108px;
     font-size: 20px;
     border-bottom: 1px solid #fff;
 }
-.text{
-    text-align: center;
-    font-size: 18px;
+
+.text-hero{
+ font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: #636F87;
 }
-.heding-card{
-    font-size: 40px; 
-}
-.box-start{
+.child{
     display: flex;
     align-items: center;
+    margin-top: 100px;
 }
-.right-card{
-margin: 100px 32px;
+.child-right{
+    margin: 20px 32px;
 }
-.last-heading{
-    margin: 150px 0 157px 0;
+.child-left{
+    margin: 20px 32px;
 }
-h4{
-    margin-bottom: 16px;
-    text-align:  center;
-    font-size: 40px;
+.child-title{
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+color: #101010;
 }
+.text{
+ font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #636F87;
+}
+.last-title{
+    margin: 100px 0 52px 0;
+}
+
+
 .form-box{
     background: #F2F4F6;
-    border-radius: 6px;;
+    border-radius: 6px;
+    margin-bottom: 200px;
 }
 .username-style{
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
     background-color: #F2F4F6;
     border: none;
+    text-decoration: none;
 }
 .input-style{
     margin: auto;
@@ -192,8 +216,8 @@ color: #F2F4F6;
 }
  
 .footer-bottom{
-        display: flex;
-        justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
  }
 
 

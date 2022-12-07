@@ -20,7 +20,9 @@
                     <li ><a class="list" href="#">Blog</a></li>
                     <li ><a class="list" href="#">Contacts</a></li>
                 </ul>
-                <a class="coll-center-style" href="tel:+2395550108">(239) 555-0108</a>
+                <div class="call-center">
+                  <a class="coll-center-style" href="tel:+2395550108">(239) 555-0108</a>
+                </div>
           </div>
         </div>
     </header>
@@ -39,10 +41,10 @@
           </div>
           </div>
         </section>
-         <h3 >
-            How can we help you?
-         </h3>
-         <section>
+         <section class="section-hero">
+            <h3 class="title-hero">
+               How can we help you?
+            </h3>
             <div class="box container">
                 <div class="card">
                    <div class="card-top">
@@ -86,7 +88,7 @@
                  </div>
                  <div class="card">
                     <div class="card-top">
-                     <h4 class="title">Web Designer</h4>
+                     <h4 class="title">Graphic design</h4>
                      <img src="./img/designtools.svg" alt="" class="img-logo">
                     </div>
                     <div class="card-bottom">
@@ -95,53 +97,51 @@
                     </div>
                  </div>
             </div>
-            <h3>How do we work?</h3>
-            <p class="text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis <br> lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at <br> sem pulvinar</p>
          </section>
          <section>
-            <div class="container">
-                    <div class="box-start">
-                            <img src="./img/Rectangle 240646605.png" alt="Rectangle" width="488" height="390">
-                       <div class="right-card">
-                        <h3 class="heding-card">Let's clarify the requirements</h3>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p> 
-                    </div>
-                   </div>
-                   <div class="box-start">
-                     <img src="./img/Rectangle 240646606 - Copy.png" alt="Rectangle" width="488" height="390">
-                <div class="right-card">
-                 <h3 class="heding-card">Let's clarify the requirements</h3>
-                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p> 
-                 
-             </div>
-            </div>
-            <div class="box-start">
-               <img src="./img/Rectangle 240646607.png" alt="Rectangle" width="488" height="390">
-          <div class="right-card">
-           <h3 class="heding-card">Let's clarify the requirements</h3>
-           <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p> 
+            <h3 class="title-hero">How do we work?</h3>
+            <p class="text-hero">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis <br> lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at <br> sem pulvinar</p>
+            <div class="word-wrapper container">
+               <ul >
+                  <li class="child" >
+                     <img src="./img/Rectangle 240646605.png" alt="">
+                     <div class="child-right">
+                        <h3 class="child-title">Let's clarify the requirements</h3>
+                        <p class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p></div>
+                  </li>
+                  <li class="child" >
+                     <div class="child-left">
+                        <h3 class="child-title">Let's clarify the requirements</h3>
+                        <p class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p></div>
+                     <img src="./img/Rectangle 240646606 - Copy.png" alt="">
+                     
+                  </li>
+                  <li class="child" >
+                     <img src="./img/Rectangle 240646607.png" alt="">
+                     <div class="child-right">
+                        <h3 class="child-title">Let's clarify the requirements</h3>
+                        <p class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p></div>
+                  </li>
+               </ul>
             </div>
          </section>
-        <div class="last-heading">
-         <h4 >Leave your number and <br> we'll call you back</h3>
-         <p class="text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis <br> lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem <br> pulvinar</p>
-        </div>
+         <div class="last-title">
+            <h3 class="title-hero">Leave your number and <br> we'll call you back</h3>
+         <p class="text-hero">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis <br> lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem <br> pulvinar</p>
+         </div>
          <form action="https.//echo.htmlacademy.ru" method="POST">
           <div class="form-box container">
             <div class="input-style">
-               <label for="Username">Name</label>
-               <input id="Username" type="text" class="username-style">
+               <input placeholder="Username" id="Username" type="text" class="username-style">
               </div>
               <div class="input-style">
-               <label for="Phone number">Phone number</label>
-               <input id="Phone number" type="number" class="username-style">
+               <input placeholder="Phone number" id="Phone number" type="tel" class="username-style">
               </div>
              <div class="input-style">
-               <label for="Commnet">Description</label>
-               <textarea name="" id="Comment" cols="5" rows="1"></textarea>
+                <option class="username-style" value="">Description</option >
              </div>
              <button class="btn-style" type="submit" >Send</button >
-               <p class="text">We call back in 10-30 minutes, guaranteed!</p>
+               <p class="text-hero">We call back in 10-30 minutes, guaranteed!</p>
           </div>
          </form>
     </main>
